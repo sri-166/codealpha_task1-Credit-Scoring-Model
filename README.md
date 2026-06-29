@@ -1,10 +1,5 @@
 # 💳 Credit Scoring Model
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 A beginner-friendly, end-to-end machine learning project that predicts whether a customer is a **Good (Low Risk)** or **Bad (High Risk)** credit customer, based on basic financial information such as income, debt, loans, and payment history.
 
 This project was built to be simple, well-commented, and easy to explain — perfect for learning the full ML workflow, for a portfolio, or for discussing in interviews.
