@@ -78,7 +78,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 
 ---
 
-## Machine Learning Workflow
+## Workflow
 
 `train_model.py` follows a clear, beginner-friendly pipeline:
 
@@ -93,8 +93,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
    - Random Forest Classifier
 7. **Evaluate** each model with Accuracy, Precision, Recall, F1-Score, a Confusion Matrix, and a Classification Report
 8. **Compare** all three models and automatically select the one with the highest accuracy
-9. **Visualize** confusion matrices and Random Forest feature importance
-10. **Save** the best model (plus the scaler and encoder it depends on) with `joblib`, ready for the Streamlit app
+9. **Save** the best model (plus the scaler and encoder it depends on) with `joblib`, ready for the Streamlit app
 
 ---
 
