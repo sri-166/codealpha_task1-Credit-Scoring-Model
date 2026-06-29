@@ -75,43 +75,6 @@ The dataset (`data/credit_data.csv`) contains **2,000+ synthetic customer record
 - **Streamlit** — interactive web app for predictions
 
 ---
-
-## Installation & Setup
-
-```bash
-# 1. Clone or download this project, then move into its folder
-cd credit-scoring-model
-
-# 2. (Recommended) Create a virtual environment
-python -m venv venv
-source venv/bin/activate      # on Windows: venv\Scripts\activate
-
-# 3. Install all required libraries
-pip install -r requirements.txt
-```
-
----
-
-## How to Run This Project
-
-**1. (Optional) Regenerate the dataset**
-The dataset is already included, but you can regenerate it any time:
-```bash
-python data/generate_dataset.py
-```
-
-**2. Explore the data**
-Open the EDA notebook to see the full exploratory analysis with all charts:
-```bash
-jupyter notebook notebooks/EDA.ipynb
-```
-
-**3. Train the models**
-This cleans the data, trains all 3 models, evaluates them, and saves the best one:
-```bash
-python train_model.py
-```
-
 **4. Launch the web app**
 ```bash
 streamlit run app/app.py
