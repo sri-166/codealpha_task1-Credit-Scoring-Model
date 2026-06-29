@@ -75,7 +75,7 @@ The dataset (`data/credit_data.csv`) contains **2,000+ synthetic customer record
 - **Streamlit** — interactive web app for predictions
 
 ---
-**4. Launch the web app**
+**Launch the web app**
 ```bash
 streamlit run app/app.py
 ```
