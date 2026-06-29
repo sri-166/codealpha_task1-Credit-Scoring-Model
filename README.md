@@ -11,7 +11,7 @@ This project was built to be simple, well-commented, and easy to explain — per
 
 ---
 
-## 📌 Project Objective
+## Project Objective
 
 Banks and lenders need a quick way to estimate how risky it is to lend money to a customer. This project simulates that process using a classic **supervised classification** approach:
 
@@ -22,7 +22,7 @@ Banks and lenders need a quick way to estimate how risky it is to lend money to 
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 credit-scoring-model/
@@ -49,7 +49,7 @@ credit-scoring-model/
 
 ---
 
-## 📊 About the Dataset
+## About the Dataset
 
 The dataset (`data/credit_data.csv`) contains **2,000+ synthetic customer records** generated to realistically resemble real-world credit data (similar in spirit to the well-known UCI "German Credit Data" dataset, but self-contained so the project runs anywhere with no downloads needed). It was generated with `data/generate_dataset.py`, using logical rules real lenders consider (e.g., high debt-to-income ratio and poor repayment history both increase risk), plus randomness to keep things realistic. A few missing values and duplicate rows were intentionally added so the project includes real data-cleaning practice.
 
@@ -65,7 +65,7 @@ The dataset (`data/credit_data.csv`) contains **2,000+ synthetic customer record
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3**
 - **Pandas** & **NumPy** — data loading and manipulation
@@ -76,7 +76,7 @@ The dataset (`data/credit_data.csv`) contains **2,000+ synthetic customer record
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ```bash
 # 1. Clone or download this project, then move into its folder
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run This Project
+## How to Run This Project
 
 **1. (Optional) Regenerate the dataset**
 The dataset is already included, but you can regenerate it any time:
@@ -120,7 +120,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 
 ---
 
-## 🧠 Machine Learning Workflow
+## Machine Learning Workflow
 
 `train_model.py` follows a clear, beginner-friendly pipeline:
 
@@ -140,7 +140,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
@@ -154,7 +154,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 
 ---
 
-## 🖼️ Visualizations
+## Visualizations
 
 ### Exploratory Data Analysis
 
@@ -190,7 +190,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 
 ---
 
-## 🤖 The Streamlit App
+## The Streamlit App
 
 `app/app.py` is a clean, professional-looking web interface where a user can enter:
 
@@ -205,7 +205,7 @@ After clicking **Predict Credit Risk**, the app loads the saved model, scaler, a
 
 ---
 
-## 🎯 Key Skills Demonstrated
+## Key Skills Demonstrated
 
 This project is a good talking point for interviews because it touches the entire ML lifecycle:
 
@@ -221,7 +221,7 @@ This project is a good talking point for interviews because it touches the entir
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Replace the synthetic dataset with a real-world credit dataset (e.g., UCI German Credit Data)
 - Try One-Hot Encoding and compare results against Label Encoding
@@ -231,7 +231,3 @@ This project is a good talking point for interviews because it touches the entir
 - Deploy the Streamlit app publicly (e.g., Streamlit Community Cloud)
 
 ---
-
-## 📄 License
-
-This project is released under the MIT License — feel free to use it for learning, portfolios, or as a starting point for your own projects.
